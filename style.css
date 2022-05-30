@@ -1,0 +1,77 @@
+body {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.815), rgb(93, 196, 93));
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 3vw;
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50vw;
+    height: 15vh;
+    font-size: 8vw;
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    font-size: 1.5vw;
+}
+
+
+
+.buttons {
+    padding: 6vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playPause {
+    color: white;
+    text-shadow: 0 0 10px black;
+    background: chartreuse;
+    border-radius: 80%;
+    width: 6vw;
+    height: 10vh;
+    font-size: 1vw;
+
+}
+
+.stop {
+    color: white;
+    text-shadow: 0 0 10px black;
+    background: red;
+    border-radius: 80%;
+    width: 6vw;
+    height: 10vh;
+    font-size: 1vw;
+}
+
+.set {
+    color: white;
+    text-shadow: 0 0 10px black;
+    background: rgb(0, 183, 255);
+    border-radius: 80%;
+    width: 6vw;
+    height: 10vh;
+    font-size: 1vw;
+}
+
+footer {
+    font-style: italic;
+}
