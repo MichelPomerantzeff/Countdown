@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,54 @@
     <title>Countdown</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
 </head>
+
 <body>
-    <div class="container">
+    <div class="main">
         <header class="title">
             <h1>Countdown</h1>
+            <hr>
         </header>
-        <div class="timer" id="time">
-            <p id="hours">00</p>
-            <p>:</p>
-            <p id="minutes">00</p>
-            <p>:</p>
-            <p id="seconds">00</p>
-        </div>
-        <div class="description">
-            <p>Hours</p>
-            <p>Minutes</p>
-            <p>Seconds</p>
+        <div class="container">
+            <div class="upBtns hide" id="increase">
+                <button id="increaseHour"><i class="fa-solid fa-chevron-up"></i></i></button>
+                <button id="increaseMin"><i class="fa-solid fa-chevron-up"></i></i></button>
+                <button id="increaseSec"><i class="fa-solid fa-chevron-up"></i></i></button>
+            </div>
+            <div class="timer" id="time">
+                <div class="display">
+                    <p class="digits" id="hours">00</p>
+                    <p class="splitter">:</p>
+                    <p class="digits" id="minutes">00</p>
+                    <p class="splitter">:</p>
+                    <p class="digits" id="seconds">00</p>
+                </div>
+            </div>
+            <div class="downBtns hide" id="decrease">
+                <button id="decreaseHour"><i class="fa-solid fa-chevron-down"></i></button>
+                <button id="decreaseMin"><i class="fa-solid fa-chevron-down"></i></button>
+                <button id="decreaseSec"><i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+            <div class="description hide" id="description">
+                <p>Hours</p>
+                <p>Minutes</p>
+                <p>Seconds</p>
+            </div>
         </div>
 
         <div class="buttons" id="btn">
             <button class="playPause" id="playPause">Start</button>
             <button class="set" id="set">Set time</button>
         </div>
-        <footer>&copy;Michel Pomerantzeff</footer>
+        <footer>&copy; Michel Pomerantzeff</footer>
     </div>
 
 
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
