@@ -23,9 +23,6 @@ let displayTime = {
     hours: hours.innerHTML
 }
 
-console.log(displayTime)
-
-
 function increase(time) {
     let a = parseFloat(time.innerHTML)
     a >= 59 ? a = 0 : a++
