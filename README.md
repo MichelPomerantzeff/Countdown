@@ -3,5 +3,4 @@
 [>>> Click here <<<](https://michelpomerantzeff.github.io/Countdown/)
 
 
-
-![cd](https://user-images.githubusercontent.com/96065240/171474889-db87ab29-c356-4c39-b48b-d49f811a813b.png)
+![countdown](https://user-images.githubusercontent.com/96065240/175430636-ee3b1c21-8ebb-4822-b75a-27f87ff97db6.png)
