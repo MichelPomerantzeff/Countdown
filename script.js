@@ -39,7 +39,7 @@ function increase(time) {
 
 function decrease(time) {
     let b = parseFloat(time.innerHTML)
-    b > 0 ? b-- : b
+    b > 0 ? b-- : b = 59
     time.innerHTML = b.toString().padStart(2, '0')
 
     if (time.id === "hours") {
